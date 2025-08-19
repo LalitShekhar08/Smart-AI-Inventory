@@ -1,9 +1,9 @@
 
-# 📦 Smart AI Inventory System
+# Smart AI Inventory System
 
 A simple inventory management system built using Python, Streamlit, SQLite, and basic machine learning for demand forecasting.
 
-## 🔧 Features
+## Features
 
 - View current inventory
 - Add new products
@@ -12,7 +12,7 @@ A simple inventory management system built using Python, Streamlit, SQLite, and 
 - Email alerts when stock is low
 - Predict future demand using linear regression
 
-##  Tech Stack
+## Tech Stack
 
 - Python
 - Streamlit (UI)
@@ -20,7 +20,7 @@ A simple inventory management system built using Python, Streamlit, SQLite, and 
 - scikit-learn (forecasting)
 - smtplib (email alerts)
 
-##  Getting Started
+## Getting Started
 
 1. Clone the repository:
    ```bash
@@ -41,17 +41,14 @@ A simple inventory management system built using Python, Streamlit, SQLite, and 
    ```bash
    streamlit run app.py
    ```
-
-##  Important
-
-- **Do NOT push `config.py`, `inventory.db`, or any real data to GitHub.**
+- Do NOT push `config.py`, `inventory.db`, or any real data to GitHub.
 - Use `.gitignore` to exclude sensitive files.
 
-## 📩 Email Alerts
+## Email Alerts
 
 Make sure to allow SMTP access in your email settings and use app-specific passwords if required.
 
-## 📊 Forecasting
+## Forecasting
 
 Forecasting is based on historical inventory CSV data. Make sure `inventory.csv` exists with sufficient entries for accurate predictions.
 
